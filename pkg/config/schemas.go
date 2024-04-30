@@ -333,3 +333,9 @@ type SetFtpInfoRequest struct {
 }
 
 type SetFtpInfoResponse error
+
+type SetBackgroundImageRequest struct {
+	ImageURL string `json:"imageUrl"`
+}
+
+type SetBackgroundImageResponse error
